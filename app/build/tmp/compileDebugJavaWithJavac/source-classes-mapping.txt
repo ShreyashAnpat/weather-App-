@@ -1,10 +1,8 @@
+com/example/weather/BuildConfig.java
+ com.example.weather.BuildConfig
 com/example/weather/MainActivity.java
  com.example.weather.MainActivity
  com.example.weather.MainActivity$1
  com.example.weather.MainActivity$2
  com.example.weather.MainActivity$3
- com.example.weather.MainActivity$3$1
  com.example.weather.MainActivity$4
- com.example.weather.MainActivity$5
-com/example/weather/BuildConfig.java
- com.example.weather.BuildConfig

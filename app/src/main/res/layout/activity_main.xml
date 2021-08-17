@@ -81,7 +81,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="Satara"
+            android:text="Loading.."
             android:textAllCaps="true"
             android:textSize="20dp"
             android:fontFamily="sans-serif-medium"
@@ -128,7 +128,7 @@
                         android:id="@+id/windFlow"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="78"
+                        android:text="0"
                         android:textSize="27dp"
                         android:textColor="#93C3F9"
                         android:layout_gravity="center_horizontal"/>
@@ -157,7 +157,7 @@
                         android:id="@+id/pressure"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="52"
+                        android:text="0"
                         android:textSize="27dp"
                         android:textColor="#93C3F9"
                         android:layout_gravity="center_horizontal"/>
@@ -186,7 +186,7 @@
                         android:id="@+id/humidity"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="89"
+                        android:text="0"
                         android:textSize="27dp"
                         android:textColor="#93C3F9"
                         android:layout_gravity="center_horizontal"/>
@@ -232,7 +232,7 @@
                           android:id="@+id/max_temp"
                           android:layout_width="wrap_content"
                           android:layout_height="wrap_content"
-                          android:text="90°c"
+                          android:text="0°c"
                           android:textColor="#93C3F9"
                           android:layout_gravity="center_horizontal"/>
                       <ImageView
@@ -259,7 +259,7 @@
                           android:id="@+id/min_temp"
                           android:layout_width="wrap_content"
                           android:layout_height="wrap_content"
-                          android:text="70°c"
+                          android:text="0°c"
 
                           android:textColor="#93C3F9"
                           android:layout_gravity="center_horizontal"/>
@@ -287,7 +287,7 @@
                           android:id="@+id/sun_rise"
                           android:layout_width="wrap_content"
                           android:layout_height="wrap_content"
-                          android:text="9:50 am"
+                          android:text="Loading.."
 
                           android:textColor="#93C3F9"
                           android:layout_gravity="center_horizontal"/>
@@ -315,7 +315,7 @@
                           android:id="@+id/sun_set"
                           android:layout_width="wrap_content"
                           android:layout_height="wrap_content"
-                          android:text="6:20 pm"
+                          android:text="loading.."
                           android:textColor="#93C3F9"
                           android:layout_gravity="center_horizontal"/>
                       <ImageView
@@ -347,20 +347,20 @@
                 android:layout_height="wrap_content"
                 android:textColor="#93C3F9"
                 android:text="Made by @ShreyashAnpat"/>
-            <com.google.android.gms.ads.AdView
-                android:id="@+id/adView"
-                android:layout_gravity="bottom"
-                android:layout_marginTop="20dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_alignParentBottom="true"
-                android:layout_centerHorizontal="true"
-                app:adSize="BANNER"
-                android:visibility="gone"
-                app:adUnitId="ca-app-pub-3940256099942544/6300978111">
+<!--            <com.google.android.gms.ads.AdView-->
+<!--                android:id="@+id/adView"-->
+<!--                android:layout_gravity="bottom"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_alignParentBottom="true"-->
+<!--                android:layout_centerHorizontal="true"-->
+<!--                app:adSize="BANNER"-->
+<!--                android:visibility="gone"-->
+<!--                app:adUnitId="ca-app-pub-3940256099942544/6300978111">-->
 
 
-            </com.google.android.gms.ads.AdView>
+<!--            </com.google.android.gms.ads.AdView>-->
 
 
         </LinearLayout>
